@@ -6,18 +6,18 @@ export default function Home() {
     <main className="h-screen">
       <div className="h-screen container mx-auto border-4 border-slate-700 flex flex-col justify-between">
         <div className="md:py-20 py-10">
-          <h1 className="text-center text-5xl font-bold text-slate-700">HOO & GOE</h1>
+          <h1 className="text-center text-3xl md:text-5xl font-bold text-slate-700">HOO & GOE</h1>
         </div>
         <div className="flex-1 flex md:flex-row flex-col justify-around">
           <div className="h-full w-full">
-            <Link href="/hoo" className="text-center flex justify-center">
+            <Link href="/hoo" className="text-center flex justify-center max-h-32 md:max-h-full">
               <Image src={"/images/hoo.png"} alt="House of Ong.Al Base Image" width="600" height="400"></Image>
             </Link>
             <h2 className="text-center text-xl font-bold text-slate-700">HOUSE OF ONG.R</h2>
           </div>
           <div className="md:h-full md:w-px h-px w-full bg-slate-700"></div>
           <div className="h-full w-full">
-            <Link href="/goe" className="text-center flex justify-center">
+            <Link href="/goe" className="text-center flex justify-center max-h-32 md:max-h-full">
               <Image src={"/images/goe.png"} alt="House of Ong.Al Base Image" width="600" height="400"></Image>
             </Link>
             <h2 className="text-center text-xl font-bold text-slate-700">GIVE OUR EMOTIONS</h2>
