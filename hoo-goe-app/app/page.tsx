@@ -9,15 +9,15 @@ export default function Home() {
           <h1 className="text-center text-3xl md:text-5xl font-bold text-slate-700">HOO & GOE</h1>
         </div>
         <div className="flex-1 flex md:flex-row flex-col justify-around">
-          <div className="h-full w-full">
-            <Link href="/hoo" className="text-center flex justify-center max-h-32 md:max-h-full">
+          <div>
+            <Link href="/hoo" className="text-center flex justify-center">
               <Image src={"/images/hoo.png"} alt="House of Ong.Al Base Image" width="600" height="400"></Image>
             </Link>
             <h2 className="text-center text-xl font-bold text-slate-700">HOUSE OF ONG.R</h2>
           </div>
           <div className="md:h-full md:w-px h-px w-full bg-slate-700"></div>
-          <div className="h-full w-full">
-            <Link href="/goe" className="text-center flex justify-center max-h-32 md:max-h-full">
+          <div>
+            <Link href="/goe" className="text-center flex justify-center">
               <Image src={"/images/goe.png"} alt="House of Ong.Al Base Image" width="600" height="400"></Image>
             </Link>
             <h2 className="text-center text-xl font-bold text-slate-700">GIVE OUR EMOTIONS</h2>
