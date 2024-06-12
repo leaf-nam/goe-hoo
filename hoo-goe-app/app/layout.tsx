@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <main className="h-screen container mx-auto border-4 border-slate-700 flex flex-col justify-between">{children}</main>
+      </body>
     </html>
   );
 }
