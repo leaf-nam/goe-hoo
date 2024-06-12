@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className="md:h-full md:w-px h-px w-full bg-slate-700"></div>
         <div>
-          <Link href="/goe" className="text-center flex justify-center">
+          <Link href="/goe/about" className="text-center flex justify-center">
             <Image src={"/images/goe.png"} alt="House of Ong.Al Base Image" width="600" height="400"></Image>
           </Link>
           <h2 className="text-center text-xl font-bold text-slate-700">GIVE OUR EMOTIONS</h2>
