@@ -19,7 +19,7 @@ export default function NavHeader() {
   });
   return (
     <header>
-      <div className="flex gap-10 justify-around pt-20 ps-20">
+      <div className="flex gap-10 justify-around ps-10">
         <Link href="/">
           <div className="flex items-center">
             <p>logo</p>
@@ -30,7 +30,7 @@ export default function NavHeader() {
             </div>
           </div>
         </Link>
-        <div className="flex-auto flex justify-around items-center text-xl font-thin tracking-tighter">{menuDivs}</div>
+        <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-xl font-thin tracking-tighter">{menuDivs}</nav>
       </div>
     </header>
   );
