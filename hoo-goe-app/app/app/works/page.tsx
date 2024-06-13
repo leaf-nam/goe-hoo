@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main className="h-[60vh] overflow-scroll">
-      <div className="ps-4 flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4 justify-center md:justify-normal">
         <div className="h-40 w-40">
           <div className="h-32 w-40 bg-slate-500"></div>
           <p className="text-center">tvn 아일랜드</p>
