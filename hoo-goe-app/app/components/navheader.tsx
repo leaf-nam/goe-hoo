@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import Logo from "./logo";
 
 export default function NavHeader() {
   const pathName = usePathname();
@@ -21,14 +22,7 @@ export default function NavHeader() {
     <header>
       <div className="flex gap-10 justify-around ps-10">
         <Link href="/">
-          <div className="flex items-center">
-            <p>logo</p>
-            <div className="text-2xl font-black tracking-tighter">
-              <p>HOUSE</p>
-              <p>OF</p>
-              <p>ONG.R</p>
-            </div>
-          </div>
+          <Logo />
         </Link>
         <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-xl font-thin tracking-tighter">{menuDivs}</nav>
       </div>

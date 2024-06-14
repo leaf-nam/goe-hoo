@@ -1,41 +1,21 @@
+"use client";
+import Works, {Work} from "./works";
+
 export default function Page() {
+  const works: Work[] = [
+    new Work(0, "tvn 아일랜드", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(1, "러브머신 블루스", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(2, "함부로 애틋하게", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(3, "test1", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(4, "test2", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(5, "test3", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(6, "test4", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(7, "test5", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+    new Work(8, "test6", "사운드 디자인, 폴리 레코딩", "https://www.youtube.com/watch?v=iKk4ZoMzuh4", "youtube"),
+  ];
   return (
     <main className="h-[60vh] overflow-scroll">
-      <div className="flex flex-wrap gap-4 justify-center md:justify-normal">
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-          <p className="text-center">tvn 아일랜드</p>
-          <p className="text-center text-xs">사운드 디자인, 폴리 레코딩</p>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-          <p className="text-center">러브머신 블루스</p>
-          <p className="text-center text-xs">사운드 디자인, 폴리 레코딩</p>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-          <p className="text-center">함부로 애틋하게</p>
-          <p className="text-center text-xs">사운드 디자인, 폴리 레코딩</p>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-        <div className="h-40 w-40">
-          <div className="h-32 w-40 bg-slate-500"></div>
-        </div>
-      </div>
+      <Works works={works} />
     </main>
   );
 }

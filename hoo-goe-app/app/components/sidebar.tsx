@@ -1,6 +1,7 @@
 export class SideBarMenu {
   name: string;
   thicker?: boolean;
+
   constructor(name: string, thicker: boolean = false) {
     this.name = name;
     this.thicker = thicker;
