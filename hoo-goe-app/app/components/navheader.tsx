@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
-import Logo from "./logo";
 
 export default function NavHeader() {
   const pathName = usePathname();
@@ -13,7 +12,7 @@ export default function NavHeader() {
   ];
   const menuDivs = menus.map((m) => {
     return (
-      <div key={m.url} className={m.url == pathName.split("/").at(-1) ? "font-black" : ""}>
+      <div key={m.url} className={m.url == pathName.split("/").at(-1) ? "font-bold" : ""}>
         <Link href={m.url}>{m.name}</Link>
       </div>
     );
@@ -21,7 +20,9 @@ export default function NavHeader() {
   return (
     <header>
       <div className="flex gap-10 justify-around ps-10">
-        <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-xl font-thin tracking-tighter">{menuDivs}</nav>
+        <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-l font-['Roboto_Serif'] font-thin tracking-tighter">
+          {menuDivs}
+        </nav>
       </div>
     </header>
   );

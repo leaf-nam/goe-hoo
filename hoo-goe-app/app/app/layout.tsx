@@ -16,7 +16,7 @@ export default function Layout({
       <div className="fixed md:top-5 top-0 right-0 w-1/2">
         <NavHeader />
       </div>
-      <main>{children}</main>
+      <main className="text-xs">{children}</main>
     </div>
   );
 }

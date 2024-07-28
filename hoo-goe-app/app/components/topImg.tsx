@@ -14,7 +14,7 @@ export default function TopImg({topImage}: {topImage: TopImage}) {
     <div className="flex flex-col items-center">
       <Image src={topImage.url} alt={topImage.name} width="50" height="50"></Image>
       <div className="h-px w-20 bg-slate-700"></div>
-      <p>{topImage.name}</p>
+      <p className="font-['Roboto_Serif']">{topImage.name}</p>
     </div>
   );
 }
