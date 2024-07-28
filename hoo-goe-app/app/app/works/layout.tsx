@@ -1,4 +1,4 @@
-import Sidebar, {SideBarMenu} from "@/app/components/sidebar";
+import TopImg, {TopImage} from "@/app/components/topImg";
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
@@ -11,17 +11,11 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const menus: SideBarMenu[] = [
-    new SideBarMenu("웹용 컨텐츠", true),
-    new SideBarMenu("광고 / 바이럴"),
-    new SideBarMenu("애니메이션"),
-    new SideBarMenu("드라마"),
-    new SideBarMenu("게임"),
-    new SideBarMenu("ETC"),
-  ];
+  const topImage = new TopImage("Works", "/images/hoo.png");
+
   return (
-    <div className="flex gap-10 justify-around max-h-[80vh]">
-      <Sidebar menus={menus} />
+    <div className="flex flex-col gap-10 justify-around max-h-[80vh]">
+      <TopImg topImage={topImage}></TopImg>
       <section className="flex-auto">{children}</section>
     </div>
   );

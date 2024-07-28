@@ -13,7 +13,7 @@ export default function Layout({
 }>) {
   return (
     <div>
-      <div className="max-h-[20vh] ">
+      <div className="fixed md:top-5 top-0 right-0 w-1/2">
         <NavHeader />
       </div>
       <main>{children}</main>

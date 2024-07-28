@@ -21,9 +21,6 @@ export default function NavHeader() {
   return (
     <header>
       <div className="flex gap-10 justify-around ps-10">
-        <Link href="/">
-          <Logo />
-        </Link>
         <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-xl font-thin tracking-tighter">{menuDivs}</nav>
       </div>
     </header>

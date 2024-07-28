@@ -1,13 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div className="py-10">
-        <h1 className="text-center text-3xl md:text-5xl font-bold text-slate-700">HOUSE OF ONG.R</h1>
-      </div>
       <div className="flex md:flex-row flex-col justify-around">
         <div className="flex flex-col justify-center">
           <Link href="/app/about">

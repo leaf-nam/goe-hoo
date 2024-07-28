@@ -2,11 +2,13 @@ import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
 import Footer from "./components/footer";
+import Logo from "./components/logo";
+import Link from "next/link";
 
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "HOO & GOE",
+  title: "House Of Ong R",
   description: "Get your Record.",
 };
 
@@ -18,7 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="h-screen container mx-auto border-4 border-slate-700 flex flex-col justify-around">
+        <div className="fixed">
+          <Link href="/">
+            <Logo />
+          </Link>
+        </div>
+        <main className="h-screen container mx-auto flex flex-col justify-around">
           {children}
           <Footer />
         </main>

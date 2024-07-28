@@ -1,4 +1,4 @@
-import Sidebar, {SideBarMenu} from "@/app/components/sidebar";
+import TopImg, {TopImage} from "@/app/components/topImg";
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
@@ -11,10 +11,10 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const menus: SideBarMenu[] = [new SideBarMenu("Audio Post Production", true)];
+  const topImage = new TopImage("About Us", "/images/hoo.png");
   return (
-    <div className="flex gap-10 justify-around max-h-[80vh]">
-      <Sidebar menus={menus} />
+    <div className="flex flex-col gap-10 justify-around max-h-[80vh]">
+      <TopImg topImage={topImage}></TopImg>
       <section className="flex-auto">{children}</section>
     </div>
   );

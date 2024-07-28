@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="text-xs text-slate-700">
+    <div className="fixed bottom-0 text-xs text-slate-700">
       <div className="hidden md:block ps-20">
         <div>
           <h3 className="font-bold">COMPANY INFO</h3>
