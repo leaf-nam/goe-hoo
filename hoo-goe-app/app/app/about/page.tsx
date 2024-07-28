@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="h-[60vh]">
-      <div className="px-48">
+      <div className="md:px-48 px-10">
         <p>[하우스 오브 옹알]은 광고와 드라마, 영화, 게임 등 각종 영상물의 오디오 프로젝트를 진행하고 있습니다.</p>
         <br />
         <p>현업 경험이 풍부한 오디오 디렉터, 레코딩 엔지니어, 사운드 디자이너, 폴리 아티스트, 음악 감독이 함께 프로젝트 전반을 담당합니다.</p>

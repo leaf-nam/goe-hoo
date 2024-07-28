@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main className="h-[60vh]">
-      <div className="px-48">
+      <div className="md:px-48 px-10">
         <p>[하우스 오브 옹알]은 사운드 디자인을 합니다.</p>
         <br />
         <p>대사 에디팅, 효과, 앰비언스 등의 내러티브 콘텐츠의 사운드 디자인부터</p>
