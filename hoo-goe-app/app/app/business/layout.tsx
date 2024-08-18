@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 import TopImg, {TopImage} from "@/app/components/topImg";
 
 export const metadata: Metadata = {
-  title: "House Of Ong R",
+  title: "HOUSE OF ONGR",
   description: "Get your Record.",
   icons: {
     icon: "/images/logo.png",
