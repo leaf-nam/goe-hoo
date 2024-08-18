@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "House Of Ong R",
   description: "Get your Record.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/logo.png",
   },
 };
 
