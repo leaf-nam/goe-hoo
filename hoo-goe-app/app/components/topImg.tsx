@@ -12,9 +12,9 @@ export class TopImage {
 export default function TopImg({topImage}: {topImage: TopImage}) {
   return (
     <div className="flex flex-col items-center">
-      <Image src={topImage.url} alt={topImage.name} width="50" height="50"></Image>
+      <Image src={topImage.url} alt={topImage.name} width="80" height="80"></Image>
       <div className="h-px w-20 bg-slate-700"></div>
-      <p className="font-['Roboto_Serif']">{topImage.name}</p>
+      <p className="font-['Arsenal_SC']">{topImage.name}</p>
     </div>
   );
 }

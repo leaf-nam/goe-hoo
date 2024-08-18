@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import Footer from "../components/footer";
 import NavHeader from "../components/navheader";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function Layout({
         <NavHeader />
       </div>
       <main className="text-xs">{children}</main>
+      <Footer />
     </div>
   );
 }

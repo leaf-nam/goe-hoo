@@ -11,7 +11,7 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const topImage = new TopImage("Works", "/images/009.png");
+  const topImage = new TopImage("Works", "/images/mini/mini-3.gif");
 
   return (
     <div className="flex flex-col gap-10 justify-around max-h-[80vh]">

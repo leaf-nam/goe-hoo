@@ -19,8 +19,8 @@ export default function NavHeader() {
   });
   return (
     <header>
-      <div className="flex gap-10 justify-around ps-10">
-        <nav className="flex-auto flex flex-col md:flex-row justify-around items-center text-l font-['Roboto_Serif'] font-thin tracking-tighter">
+      <div className="flex justify-around ps-10">
+        <nav className="flex-auto flex flex-col md:flex-row justify-center md:gap-10 items-center text-xs font-['Arsenal_SC'] font-thin tracking-tighter">
           {menuDivs}
         </nav>
       </div>

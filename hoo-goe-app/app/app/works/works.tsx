@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import ReactPlayer from "react-player";
 
 export class Work {
@@ -26,10 +27,10 @@ export default function Works({works}: {works: Work[]}) {
     switch (w.workType) {
       case "youtube":
         return (
-          <div key={w.index} className="h-40 w-40">
-            <ReactPlayer url={w.url} width="100%" height="75%" />
-            <p className="text-center">{w.title}</p>
-            <p className="text-center text-xs">{w.description}</p>
+          <div key={w.index} className="basis-1/4 ">
+            <ReactPlayer url={w.url} width="100%" height="100%" />
+            <p className="text-center text-[14px] text-[#212121] mt-2">{w.title}</p>
+            <p className="text-center text-[12px] text-[#888888]">{w.description}</p>
           </div>
         );
       case "mp4": // 나중에 video 태그로 변경예정
@@ -38,11 +39,21 @@ export default function Works({works}: {works: Work[]}) {
             <Link href={w.url}>
               <div className="h-32 w-40 bg-slate-500"></div>
             </Link>
-            <p className="text-center">{w.title}</p>
-            <p className="text-center text-xs">{w.description}</p>
+            <p className="text-center text-[14px] text-[#212121] mt-2">{w.title}</p>
+            <p className="text-center text-[12px] text-[#888888]">{w.description}</p>
+          </div>
+        );
+      case "png":
+        return (
+          <div key={w.index} className="min-w-[25%] max-w-[33%]">
+            <div className="basis-1/4 aspect-video" style={{position: "relative"}}>
+              <Image src={w.url} alt={w.title} layout="fill" />
+            </div>
+            <p className="text-center text-[14px] text-[#212121] mt-2">{w.title}</p>
+            <p className="text-center text-[12px] text-[#888888]">{w.description}</p>
           </div>
         );
     }
   });
-  return <div className="flex flex-wrap gap-4 justify-center md:justify-normal">{workDivs}</div>;
+  return <div className="flex flex-wrap gap-20 justify-center md:justify-center">{workDivs}</div>;
 }
