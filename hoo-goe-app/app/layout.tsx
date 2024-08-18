@@ -7,7 +7,7 @@ import Link from "next/link";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "House Of Ong R",
+  title: "HOUSE OF ONGR",
   description: "Get your Record.",
   icons: {
     icon: "/images/logo.png",
