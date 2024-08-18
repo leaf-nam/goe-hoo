@@ -2,8 +2,11 @@ import TopImg, {TopImage} from "@/app/components/topImg";
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-  title: "Get Your Record",
+  title: "House Of Ong R",
   description: "Get your Record.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function Layout({

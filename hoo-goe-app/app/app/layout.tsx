@@ -3,8 +3,11 @@ import Footer from "../components/footer";
 import NavHeader from "../components/navheader";
 
 export const metadata: Metadata = {
-  title: "Get Your Record",
+  title: "House Of Ong R",
   description: "Get your Record.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function Layout({
