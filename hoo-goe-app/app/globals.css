@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kirang+Haerang&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kirang+Haerang&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap&family=Nanum+Gothic:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: "Apple SDGothic Neo";
+  font-family: "Nanum Gothic";
 }
 
 p {
