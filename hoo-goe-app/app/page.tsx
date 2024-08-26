@@ -14,7 +14,9 @@ export default function Home() {
           <div className="h-[20px]"></div>
           <h2 className="text-center text-xl font-['Kirang_Haerang'] text-[#020202]">AUDIO POST PRODUCTION</h2>
         </div>
-        <div className="md:h-full md:w-px h-[100px] w-full bg-white md:bg-slate-700"></div>
+        <div className="md:h-full md:w-px h-[50px] w-full bg-white"></div>
+        <div className="md:h-full md:w-px h-px w-full max-w-96 bg-slate-700 mx-auto"></div>
+        <div className="md:h-full md:w-px h-[50px] w-full bg-white"></div>
         <div className="flex flex-col justify-center">
           <a className="mx-auto" href="#" onClick={() => alert("죄송합니다. 해당 페이지는 공사중입니다!")}>
             <Image src={"/images/main/002.png"} alt="House of Ong.Al Base Image" width="400" height="300"></Image>
