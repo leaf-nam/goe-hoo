@@ -5,6 +5,7 @@ import ReactPlayer from "react-player";
 
 export class Work {
   index: number;
+  regDate: string;
   client: string;
   title: string;
   position: string;
@@ -17,6 +18,7 @@ export class Work {
    */
   constructor(
     index: number,
+    regDate: string,
     client: string,
     title: string,
     position: string,
@@ -25,6 +27,7 @@ export class Work {
     url: string = ""
   ) {
     this.index = index;
+    this.regDate = regDate;
     this.client = client;
     this.title = title;
     this.position = position;
