@@ -6,6 +6,7 @@ import Works, {Work} from "./works";
  */
 export default function Page() {
   const works: Work[] = [
+    new Work(19, "2024-10-11", "하나은행", "청소년 불법도박 예방 캠페인 T1-Faker", "사운드 디자인 ・ 선곡", "png"),
     new Work(0, "2024-8-26", "TVING", "썸머 러브머신 블루스", "사운드 디자인 ・ 폴리", "png"),
     new Work(1, "2024-8-26", "TVING", "아일랜드", "사운드 디자인 ・ 폴리", "png"),
     new Work(2, "2024-8-26", "POSCO", "마음도 택배가 되나요?", "사운드 디자인 ・ 선곡", "png"),
@@ -25,7 +26,6 @@ export default function Page() {
     new Work(16, "2024-8-26", "KOCCA", "오르는가요", "사운드 디자인 ・ 선곡", "png"),
     new Work(17, "2024-8-26", "ZIGZAG", "Z ROOM", "사운드 디자인 ・ 선곡", "png"),
     new Work(18, "2024-8-26", "라이즈 (RIIZE)", "'HAPPY! HAPPY! HAPPY!' (씰룩 OST)", "작곡", "png"),
-    new Work(19, "2024-10-11", "하나은행", "청소년 불법도박 예방 캠페인 T1-Faker", "사운드 디자인 ・ 선곡", "png"),
   ];
   return (
     <main className="h-[60vh] overflow-scroll">
