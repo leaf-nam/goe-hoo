@@ -10,7 +10,7 @@ export class Work {
   title: string;
   position: string;
   url: string;
-  extension: string;
+  fileName: string;
   workType: string;
 
   /**
@@ -22,7 +22,7 @@ export class Work {
     client: string,
     title: string,
     position: string,
-    extension: string = "png",
+    fileName: string,
     workType: string = "image",
     url: string = ""
   ) {
@@ -32,9 +32,9 @@ export class Work {
     this.title = title;
     this.position = position;
     this.url = url;
-    this.extension = extension;
+    this.fileName = fileName;
     this.workType = workType;
-    if (workType == "image") this.url = `/images/works/${index}.${extension}`;
+    if (workType == "image") this.url = `/images/works/${fileName}`;
   }
 }
 
