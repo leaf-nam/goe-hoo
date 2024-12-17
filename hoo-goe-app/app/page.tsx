@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="text-center text-xl font-['Kirang_Haerang'] text-[#020202]">AUDIO POST PRODUCTION</h2>
         </div>
         <div className="md:hidden h-[50px] w-full bg-white"></div>
-        <div className="md:h-full md:w-px h-px w-full max-w-96 bg-slate-700 mx-auto"></div>
+        <div className="md:h-full md:w-px h-px w-full md:max-w-1 max-w-96 bg-slate-700 md:mx-0 mx-auto"></div>
         <div className="md:hidden h-[50px] w-full bg-white"></div>
         <div className="flex flex-col justify-center">
           <a className="mx-auto" href="#" onClick={() => alert("죄송합니다. 해당 페이지는 공사중입니다!")}>

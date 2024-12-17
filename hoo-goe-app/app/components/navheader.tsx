@@ -5,6 +5,7 @@ import {usePathname} from "next/navigation";
 export default function NavHeader() {
   const pathName = usePathname();
   const menus = [
+    {name: "CORE", url: "core"},
     {name: "ABOUT US", url: "about"},
     {name: "WORKS", url: "works"},
     {name: "BUSINESS", url: "business"},

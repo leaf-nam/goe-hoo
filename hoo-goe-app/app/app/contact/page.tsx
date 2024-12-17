@@ -1,11 +1,11 @@
 export default function Page() {
   return (
     <main className="h-[60vh]">
-      <div className="grid grid-cols-2 gap-2">
-        <div className="p-10 md:p-20">
+      <div className="flex justify-center">
+        {/* <div className="p-10 md:p-20">
           <h2 className="text-xl font-bold">사진</h2>
           <p>[사진 첨부]</p>
-        </div>
+        </div> */}
         <div className="p-10 md:p-20">
           <h2 className="text-xl font-bold">INFO</h2>
           <p>E-Mail : houseofongr@naver.com</p>
