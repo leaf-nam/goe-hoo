@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col">
       <div className="flex md:flex-row flex-col justify-around">
         <div className="flex flex-col justify-center">
-          <Link className="mx-auto" href="/app/about">
+          <Link className="mx-auto" href="/app/core">
             <Image src={"/images/main/001.png"} alt="Audio Post Production Base Image" width="400" height="300"></Image>
           </Link>
           <div className="h-[20px]"></div>
