@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="h-[60vh] overflow-scroll">
+    <main className="h-[60vh] md:overflow-none overflow-scroll">
       <div className="flex justify-center">
         <div className="min-w-24"></div>
         <div className="">
