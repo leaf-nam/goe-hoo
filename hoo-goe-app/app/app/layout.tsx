@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import NavHeader from "../components/navheader";
 
 export const metadata: Metadata = {
-  title: "HOUSE OF ONGR",
+  title: "EDIT CHAEROK",
   description: "Get your Record.",
   icons: {
     icon: "/images/logo.png",

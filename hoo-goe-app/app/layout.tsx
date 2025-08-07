@@ -8,7 +8,7 @@ import {GoogleAnalytics, GoogleTagManager} from "@next/third-parties/google";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "HOUSE OF ONGR",
+  title: "EDIT CHAEROK",
   description: "Get your Record.",
   icons: {
     icon: "/images/logo.png",
