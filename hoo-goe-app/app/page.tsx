@@ -25,7 +25,7 @@ export default function Home() {
           <h2 className="text-center text-xl font-['Kirang_Haerang'] text-[#020202]">ARCHIVE</h2>
         </div>
       </div>
-      <p className="fixed bottom-0 inset-x-0 text-xs text-center text-slate-700">하우스 오브 옹알 Co.&copy; 2022 All right reserved.</p>
+      <p className="fixed bottom-0 inset-x-0 text-xs text-center text-slate-700">에디트 채록 Co.&copy; 2022 All right reserved.</p>
     </div>
   );
 }
