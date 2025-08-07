@@ -7,7 +7,7 @@ export default function Page() {
         <div className="min-w-24"></div>
         <div className="">
           <p>
-            <b>에디트 채록</b>은 싱그러운 뚝섬한강공원 앞 위치한 오디오 포스트 프로덕션입니다.
+            <b>에디트 채록</b>은 성수역 앞에 위치한 오디오 포스트 프로덕션입니다.
           </p>
           <br />
           <br />
