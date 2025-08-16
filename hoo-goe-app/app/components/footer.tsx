@@ -8,7 +8,7 @@ export default function Footer() {
             <p>모든 것이 소리 내는 곳 | 에디트 채록 소리기록실</p>
           </div>
           <div>
-            <p>houseofongr@naver.com</p>
+            <p>official@chaerok.com</p>
           </div>
         </div>
       </div>
